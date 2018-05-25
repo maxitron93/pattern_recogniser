@@ -1,3 +1,19 @@
+# Context
+Built a simple pattern recogniser for fun. The program identifies the pattern and predicts the next number in a given sequence. For example:
+input: [3, 10, 29, 66, 127]
+output: The next number is 218. The pattern is n ^ 3 + 2
+
+To give it a try, clone index.html and load it in the browser. You can try out different sequences by changing `numbersArray` The program will log the results in the console.
+
+This will only work when:
+1. the pattern is n^x+y or n^x*y
+2. the first number is 1^x+y or 1^x*y
+3. the exponent needs to be a whole number (x cannot be a decimal)
+4. it should work for all values of y, but it doesn't because of tiny rounding errors :(
+4. there are at least two more numbers in the sequence than the exponent. e.g. if the exponent is 5, there must be at least 7 numbers in the sequence.
+
+# Code
+
 ```js
 <!DOCTYPE html>
 <html lang="en">
