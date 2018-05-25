@@ -1,6 +1,8 @@
 # Context
 Built a simple pattern recogniser for fun. The program identifies the pattern and predicts the next number in a given sequence. For example:
+
 input: [3, 10, 29, 66, 127]
+
 output: The next number is 218. The pattern is n ^ 3 + 2
 
 To give it a try, clone index.html and load it in the browser. You can try out different sequences by changing `numbersArray`. The program will log the results in the console.
