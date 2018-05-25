@@ -3,7 +3,7 @@ Built a simple pattern recogniser for fun. The program identifies the pattern an
 input: [3, 10, 29, 66, 127]
 output: The next number is 218. The pattern is n ^ 3 + 2
 
-To give it a try, clone index.html and load it in the browser. You can try out different sequences by changing `numbersArray` The program will log the results in the console.
+To give it a try, clone index.html and load it in the browser. You can try out different sequences by changing `numbersArray`. The program will log the results in the console.
 
 This will only work when:
 1. the pattern is n^x+y or n^x*y
